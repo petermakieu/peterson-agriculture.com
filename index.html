@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Peterson Agriculture Website</h2>
+            <p>We provide sustainable farming solutions and products.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are committed to promoting sustainable agriculture practices by supporting farmers with innovative tools, products, and training programs.</p>
+    </section>
+<!-- Farmers' Registration Section -->
+<section id="farmers-registration" class="registration-section">
+    <h2>Farmers' Registration</h2>
+    <p>Join our agricultural community and get access to resources and support for your farming activities.</p>
+
+    <form class="registration-form">
+        <!-- Full Name -->
+        <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+        </div>
+
+        <!-- Location -->
+        <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" placeholder="Enter your farm's location" required>
+        </div>
+
+        <!-- Farming Type -->
+        <div class="form-group">
+            <label for="farming-type">Farming Type</label>
+            <select id="farming-type" name="farming-type" required>
+                <option value="" disabled selected>Select your type of farming</option>
+                <option value="crop">Crop Farming</option>
+                <option value="livestock">Livestock Farming</option>
+                <option value="poultry">Poultry Farming</option>
+                <option value="mixed">Mixed Farming</option>
+            </select>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <button type="submit" class="btn-submit">Register</button>
+        </div>
+    </form>
+</section>
+
+    <!-- Success Stories Section -->
+    <section id="success-stories" class="success-stories-section">
+        <h2>Success Stories</h2>
+        <p>Learn how farmers are thriving through sustainable farming practices and innovations.</p>
+
+        <div class="stories-container">
+            <!-- Story 1 -->
+            <div class="story-card">
+                <img src="Success1.1.1.png" alt="Farmer Success 1">
+                <div class="story-content">
+                    <h3>Mr.Peter Makieu - Organic Farming Pioneer</h3>
+                    <p>"With the new techniques, my yield has doubled. I can now provide for my family and the community!"</p>
+                </div>
+            </div>
+
+            <!-- Story 2 -->
+            <div class="story-card">
+                <img src="Success2.2.png" alt="Farmer Success 2">
+                <div class="story-content">
+                    <h3>Mr.Jonathan Stephen - Crop Diversification</h3>
+                    <p>"Diversifying crops has reduced my risk and improved my income. Now I’m planting a variety of crops every season."</p>
+                </div>
+            </div>
+
+            <!-- Story 3 -->
+            <div class="story-card">
+                <img src="Success3.3.png" alt="Farmer Success 3">
+                <div class="story-content">
+                    <h3>Mr.Mambu Kallon - Water Conservation Expert</h3>
+                    <p>"Implementing water conservation methods has significantly improved my crop health during the dry season."</p>
+                </div>
+            </div>
+
+            <!-- Story 4 -->
+            <div class="story-card">
+                <img src="Success4.4.jpg" alt="Farmer Success 4">
+                <div class="story-content">
+                    <h3>Mr.Anderson Sam-Fana - Sustainable Livestock Management</h3>
+                    <p>"By adopting sustainable livestock practices, I have seen better growth and healthier livestock."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Videos Section -->
+    <section id="videos" class="videos-section">
+        <h2>Farming Videos</h2>
+        <p>Watch our collection of farming tutorials, tips, and success stories.</p>
+
+        <div class="videos-container">
+            <!-- Video 1 -->
+            <div class="video-card">
+                <video controls>
+                    <source src="Video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-info">
+                    <h3>Organic Farming Techniques</h3>
+                    <p>Learn about modern organic farming practices that increase yield sustainably.</p>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="video-card">
+                <video controls>
+                    <source src="Video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-info">
+                    <h3>Water Conservation in Agriculture</h3>
+                    <p>Effective water management techniques for maximizing crop health during droughts.</p>
+                </div>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="video-card">
+                <video controls>
+                    <source src="Video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-info">
+                    <h3>Sustainable Livestock Practices</h3>
+                    <p>Discover eco-friendly livestock management strategies that are profitable and sustainable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <h3>Farming Solutions</h3>
+                <p>We offer modern and sustainable farming solutions tailored to your needs.</p>
+            </div>
+            <div class="service-box">
+                <h3>Consultation</h3>
+                <p>Our experts provide personalized consultation services for better yields.</p>
+            </div>
+            <div class="service-box">
+                <h3>Farm Equipment</h3>
+                <p>We supply high-quality farm equipment to improve your productivity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="agric5.jpeg" alt="Product 1">
+                <h3>Organic Seeds</h3>
+            </div>
+            <div class="product-card">
+                <img src="agric6.jpeg" alt="Product 1">
+                <h3>Organic Seeds</h3>
+            </div>
+            <div class="product-card">
+                <img src="agric7.jpeg" alt="Product 1">
+                <h3>Organic Seeds</h3>
+            </div>
+            <div class="product-card">
+                <img src="agric8.jpg" alt="Product 1">
+                <h3>Organic Seeds</h3>
+            </div>
+            <div class="product-card">
+                <img src="agric9.jpeg" alt="Product 1">
+                <h3>Organic Seeds</h3>
+            </div>
+            <div class="product-card">
+                <img src="fert1.jpeg" alt="Product 2">
+                <h3>Fertilizer</h3>
+            </div>
+            <div class="product-card">
+                <img src="fert2.jpeg" alt="Product 2">
+                <h3>Fertilizer</h3>
+            </div>
+            <div class="product-card">
+                <img src="fert3.jpeg" alt="Product 2">
+                <h3>Fertilizer</h3>
+            </div>
+            <div class="product-card">
+                <img src="tractor1.jpeg" alt="Product 3">
+                <h3>Tractor</h3>
+            </div>
+            <div class="product-card">
+                <img src="tractor2.jpeg" alt="Product 3">
+                <h3>Tractor</h3>
+            </div>
+            <div class="product-card">
+                <img src="tractor3.jpeg" alt="Product 3">
+                <h3>Tractor</h3>
+            </div>
+            <div class="product-card">
+                <img src="tractor4.jpeg" alt="Product 3">
+                <h3>Tractor</h3>
+            </div>
+        </div>
+    </section>
+<!-- Upload Farming Activities Section -->
+<section id="upload" class="upload-section">
+    <h2>Upload Farming Activities</h2>
+    <p>Submit your farming activities and progress to share with the community.</p>
+    
+    <form action="#" method="POST" enctype="multipart/form-data" class="upload-form">
+        <div class="form-group">
+            <label for="activity-title">Activity Title</label>
+            <input type="text" id="activity-title" name="activity-title" placeholder="Enter activity title" required>
+        </div>
+
+        <div class="form-group">
+            <label for="activity-date">Date of Activity</label>
+            <input type="date" id="activity-date" name="activity-date" required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="4" placeholder="Describe the activity" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="activity-images">Upload Images</label>
+            <input type="file" id="activity-images" name="activity-images" accept="image/*" multiple>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn">Submit Activity</button>
+        </div>
+    </form>
+</section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="farm1.jpeg" alt="Farm 1">
+            <img src="farm2.jpeg" alt="Farm 2">
+            <img src="farm3.jpeg" alt="Farm 3">
+            <img src="farm4.jpeg" alt="Farm 4">
+            <img src="agric1.jpg" alt="Farm 1">
+            <img src="agric2.jpg" alt="Farm 2">
+            <img src="agric3.jpeg" alt="Farm 3">
+            <img src="livestock1.jpeg" alt="Farm 4">
+        </div>
+    </section>
+     <!-- Staff Profiles Section -->
+     <section id="staff" class="staff-section">
+        <h2>Our Team</h2>
+        <div class="staff-container">
+            <!-- Staff Profile 1 -->
+            <div class="staff-card">
+                <img src="Staff1.jpeg" alt="Staff 1">
+                <h3>Mr. Peter Makieu</h3>
+                <p>The CEO and Agribusiness Expert</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <!-- Staff Profile 2 -->
+            <div class="staff-card">
+                <img src="staff2.1.jpeg" alt="Staff 2">
+                <h3>Mr.Mohamed Ansumana</h3>
+                <p>Finance Director and Farm Operations Manager</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <!-- Staff Profile 3 -->
+            <div class="staff-card">
+                <img src="staff3.jpeg" alt="Staff 3">
+                <h3>Mr.Moses Lansana Ngombu</h3>
+                <p> Vice Chairman and Project Officer</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <!-- Staff Profile 4 -->
+            <div class="staff-card">
+                <img src="staff4.jpeg" alt="Staff 4">
+                <h3>Mr.Francis Sahr Jusu</h3>
+                <p>Program Manager</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="Phone-No">Your Phone-No</label>
+                <input type="Phone No" id="Phone-No" name="Phone-No" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Developed by: Mr.Peter Makieu.The Web Developer. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
